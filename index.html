@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reto Hackaton</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
 
 <body>
     <div>
         <section>
-            <figure><img src="" alt="Fotografia"></figure>
+            <figure><img src="./images/Persona.png" alt="Fotografia"></figure>
             <h1>Pachaqtec</h1>
             <p>Hola mi nombre es Joseph Barzola</p>
         </section>
@@ -76,53 +78,51 @@
                 </div>
             </div>
         </section>
-        <div>
-            <section>
-                <h2>Portafolio</h2>
-                <div>
-                    <figure>
-                        <img src="#" alt="Proyecto1">
-                    </figure>
-                    <figure>
-                        <img src="#" alt="Proyecto2">
-                    </figure>
-                    <figure>
-                        <img src="#" alt="Proyecto3">
-                    </figure>
-                    <figure>
-                        <img src="#" alt="Proyecto4">
-                    </figure>
-                </div>
-                <div>
-                    <figure>
-                        <img src="#" alt="Proyecto5">
-                    </figure>
-                    <figure>
-                        <img src="#" alt="Proyecto6">
-                    </figure>
-                    <figure>
-                        <img src="#" alt="Proyecto7">
-                    </figure>
-                    <figure>
-                        <img src="#" alt="Proyecto8">
-                    </figure>
-                </div>
-            </section>
-        </div>
+        <section>
+            <h2>Portafolio</h2>
+            <div>
+                <figure>
+                    <img src="./images/Proyecto1.png" alt="Proyecto1">
+                </figure>
+                <figure>
+                    <img src="./images/Proyecto2.png" alt="Proyecto2">
+                </figure>
+                <figure>
+                    <img src="./images/Proyecto3.png" alt="Proyecto3">
+                </figure>
+                <figure>
+                    <img src="./images/Proyecto4.png" alt="Proyecto4">
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="./images/Proyecto5.png" alt="Proyecto5">
+                </figure>
+                <figure>
+                    <img src="./images/Proyecto6.png" alt="Proyecto6">
+                </figure>
+                <figure>
+                    <img src="./images/Proyecto7.png" alt="Proyecto7">
+                </figure>
+                <figure>
+                    <img src="./images/Proyecto8.png" alt="Proyecto8">
+                </figure>
+            </div>
+        </section>
         <section>
             <h2>Clientes</h2>
             <div>
                 <figure>
-                    <img src="#" alt="Ferme">
+                    <img src="./images/Ferme.png" alt="Ferme">
                 </figure>
                 <figure>
-                    <img src="#" alt="Dotmatics">
+                    <img src="./images/dotmatics.png" alt="Dotmatics">
                 </figure>
                 <figure>
-                    <img src="#" alt="Ferme">
+                    <img src="./images/Ferme.png" alt="Ferme">
                 </figure>
                 <figure>
-                    <img src="#" alt="Alliance">
+                    <img src="./images/Alliance.png" alt="Alliance">
                 </figure>
             </div>
         </section>
@@ -130,24 +130,18 @@
             <h2>Contacto</h2>
             <form>
                 <div>
-                    <input type="text" id="fname" name="fname" value="Nombre"><br>
+                    <input type="text" id="fname" name="fname" value="Nombre">
+                    <input name="apellido" type="text" placeholder="Apellido">
                 </div>
                 <div>
-                    <input type="text" id="lname" name="lname" value="Apellido"><br>
+                    <input name="email" type="text" placeholder="Email">
+                    <input name="telefono" type="text" placeholder="Telefono">
                 </div>
                 <div>
-                    <input type="text" id="Email" name="Email" value="Email"><br>
-                </div>
-                <div>
-                    <input type="text" id="Telefono" name="Telefono" value="Telefono"><br>
-                </div>
-                <div>
-                    <input type="text" id="Descripcion" name="Descripcion" value="Descripcion">
+                    <textarea name="descrip" rows="4" type="text" placeholder="Descripcion"></textarea>
                 </div>
             </form>
-            <div>
-                <button>Enviar</button>
-            </div>
+            <button>Enviar</button>
         </section>
     </div>
 </body>
