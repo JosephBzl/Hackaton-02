@@ -1,0 +1,48 @@
+/*Global*/
+
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+}
+form{
+    padding: 20px;
+    border: 1px solid black;
+    width: 350px;
+    margin: auto;
+}
+
+hr {
+    display: none;
+}
+
+/*Main*/
+
+input,select{
+        width: 70%;
+        padding: 20px;
+        border: 1px;
+        margin-left: 10%;
+        margin-bottom: 10px;
+    }
+
+select{
+        width: 70%;
+    }
+
+button{
+        width: 70%;
+        padding: 20px;
+        margin-left: 10%;
+        border: 1px solid black;
+    }
+
+/*Focus*/
+
+input:focus:invalid {
+    outline:none;
+    border: 2px solid red;
+}
+input:focus:valid {
+    outline: none;
+    border: 2px solid green;
+}

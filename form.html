@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./styles/form.css">
+</head>
+
+<body>
+    <form action="">
+        <input required pattern="[a-zA-Z]+" type="text" name="fname" placeholder="Nombre">
+        <input required pattern="[a-zA-Z]+" type="text" name="lname" placeholder="Apellido">
+        <hr>
+        <br>
+        <input required min="18" max="80" type="number" name="age" placeholder="Edad">
+        <hr>
+        <br>
+        <select required name="sex">
+            <option value="">Selecciona tu sexo</option>
+            <option value="M">Masculino</option>
+            <option value="F">Femenino</option>
+        </select>
+        <hr>
+        <br>
+        <input required minlength="8" maxlength="8" type="text" placeholder="DNI">
+        <hr>
+        <br>
+        <input type="email" name="email" placeholder="Email">
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
