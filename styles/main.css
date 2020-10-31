@@ -1,0 +1,224 @@
+body {
+  font-family: Helvetica;
+  color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+main {
+    width: 960px;
+    margin: auto;
+    position: relative;
+}
+
+h1 {
+    font-size: 64px;
+    position: absolute;
+    font-weight: bold;
+    top: 52px;
+    left: 310px;
+}
+
+.head{
+    padding: 0px;    
+}
+
+.head p {
+    position: absolute;
+    left: 86px;
+    top: 308px;
+    width: 331px;
+    height: 97px;
+    font-size: 36px;
+    font-weight: bold;
+    background-color:rgba(64,224,208 ,0.5);
+    opacity: 20;
+    border-radius: 17px;
+    padding: 10px;
+}
+
+.about {
+    margin-top: -3px;
+    background-color: #7299FE;
+    height: 424px;
+}
+
+.about
+h2 {
+    font-size: 36px;
+    color: #1D06A7;
+    padding-top: 20px;
+}
+
+.about 
+p {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 20px;
+}
+
+.about
+a {
+    font-family:Helvetica, sans-serif;
+    position: absolute;
+    color: white;
+    margin: 0px 0px 0px 40px;
+    border: none;
+    padding: 23px 67px;
+    cursor: pointer;
+    background-color: #D16FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.skills {
+    background: #9022FF;
+}
+
+.skills
+h2 {
+    padding: 20px 20px;
+    color: #26CC4B;
+}
+
+.skills
+h3 {
+    color: #ffffff;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+.baguette,
+.baguette-2,
+.baguette-3,
+.baguette-4,
+.baguette-5,
+.baguette-6 {
+    background-color: white;
+    width: 360px;
+    height: 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.demie-baguette,
+.demie-baguette2,
+.demie-baguette3,
+.demie-baguette4,
+.demie-baguette5,
+.demie-baguette6 {
+    background-color: turquoise;
+    width: 50%;
+    height: 15px;
+    border-radius: 5px;
+}
+
+.portafolio {
+    width: 960px;
+    height: 400px;
+    background-color: #FFD233;
+    color: teal;
+}
+
+.portafolio 
+h2{
+    margin-top: -20px;
+    padding: 20px 20px;
+}
+
+.content-1 {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.content-1
+img {
+    padding-left: 20px;
+}
+
+.content-2 {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.content-2
+img {
+    padding-left: 20px;
+}
+
+.entreprise {
+    background-color: #3F4E62;
+}
+
+.entreprise
+h2 {
+    padding: 20px 20px;
+    color: #ADFF28;
+}
+
+.logo-entreprise {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.contact {
+    background-color: #1687A0;
+    text-align: center;
+}
+
+.contact
+h2 {
+    margin: -20px;
+    padding: 20px 20px;
+    color: #FF1B1B;
+}
+
+.contact
+ input {
+    padding: 20px;
+    width: 30%;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.contact
+textarea {
+    width: 71%;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.button-enviar{
+    background-color: #233451;
+    border: 1px solid #233451;
+    width: 20%;
+    padding: 20px;
+    margin-bottom: 50px;
+    color: white;
+    font-weight: bold;
+}
