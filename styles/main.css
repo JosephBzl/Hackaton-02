@@ -198,16 +198,16 @@ h2 {
 
 .contact
  input {
+    margin-bottom: 20px;
+    margin-right: 20px;
     padding: 20px;
     width: 30%;
     border: 1px solid grey;
-    margin-bottom: 20px;
-    margin-right: 20px;
 }
 
 .contact
 textarea {
-    width: 71%;
+    width: 69%;
     border: 1px solid grey;
     margin-bottom: 20px;
     margin-right: 20px;
@@ -216,9 +216,9 @@ textarea {
 .button-enviar{
     background-color: #233451;
     border: 1px solid #233451;
-    width: 20%;
     padding: 20px;
     margin-bottom: 50px;
     color: white;
     font-weight: bold;
+    width: 20%;
 }
